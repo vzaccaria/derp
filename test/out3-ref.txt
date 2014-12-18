@@ -1,0 +1,1 @@
+This is an interpolation of 'variable string' that goes to stdout
