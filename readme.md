@@ -29,7 +29,6 @@ Assume the following c++ file (`example.cxx`):
 #include <iostream>
  
 auto s = "variable string";
-auto cs = "This is a string that interpolates #{s}";
 
 int main()
 {
