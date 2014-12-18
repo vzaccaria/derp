@@ -1,0 +1,19 @@
+{
+  "name": "derp",
+  "version": "0.0.1",
+  "description": "String interpolation for clang++ - Yet another post-pre processor",
+  "bin": {
+    "derp": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vittorio Zaccaria",
+  "license": "BSD",
+  "dependencies": {
+    "docopt": "~0.4.1",
+    "shelljs": "*",
+    "verbal-expressions": "~0.1.2"
+  }
+}
