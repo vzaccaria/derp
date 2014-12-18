@@ -16,7 +16,7 @@ Usage:
     derp -h | --help 
 
 Description:
-    Expands C++ interpolated strings on stdin. Output on stdout.
+    Expands C++ interpolated strings from a program read from stdin. Produces the manipulated program on stdout.
 
 ```
 
