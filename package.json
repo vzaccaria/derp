@@ -1,6 +1,6 @@
 {
   "name": "derp-cpp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "String interpolation for clang++ - Yet another post-pre processor",
   "bin": {
     "derp": "./index.js"
