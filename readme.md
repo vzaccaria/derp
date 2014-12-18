@@ -1,11 +1,11 @@
-# derp [![NPM version](https://badge.fury.io/js/derp.svg)](http://badge.fury.io/js/derp)
+# derp++ [![NPM version](https://badge.fury.io/js/derp++.svg)](http://badge.fury.io/js/derp++)
 
 > String interpolation for clang++ - Yet another post-pre processor
 
 ## Install globally with [npm](npmjs.org):
 
 ```bash
-npm i -g derp
+npm i -g derp++
 ```
 
 ## General help 

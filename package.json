@@ -1,5 +1,5 @@
 {
-  "name": "derp",
+  "name": "derp++",
   "version": "0.0.2",
   "description": "String interpolation for clang++ - Yet another post-pre processor",
   "bin": {
