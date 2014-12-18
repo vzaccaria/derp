@@ -10,6 +10,8 @@
 {%= partial("usage.md") %}
 ```
 
+This is just a post processor to be run after clang++ preprocessor (-E option).
+
 ## Example
 
 Assume the following c++ file (`example.cxx`):

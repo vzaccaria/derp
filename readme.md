@@ -12,13 +12,15 @@ npm i -g derp
 
 ```
 Usage:
-    derp [-f FILE]
+    derp -
     derp -h | --help 
 
-Options:
-    -f, --file FILE     If no <input> is passed, it is read from stdin
+Description:
+    Expands C++ interpolated strings on stdin. Output on stdout.
 
 ```
+
+This is just a post processor to be run after clang++ preprocessor (-E option).
 
 ## Example
 
