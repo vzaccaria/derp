@@ -3,147 +3,24 @@
 2 info using npm@1.3.2
 3 info using node@v0.10.31
 4 verbose publish [ '.' ]
-5 verbose cache add [ '.', null ]
-6 verbose cache add name=undefined spec="." args=[".",null]
-7 verbose parsed url { protocol: null,
-7 verbose parsed url   slashes: null,
-7 verbose parsed url   auth: null,
-7 verbose parsed url   host: null,
-7 verbose parsed url   port: null,
-7 verbose parsed url   hostname: null,
-7 verbose parsed url   hash: null,
-7 verbose parsed url   search: null,
-7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: '.',
-7 verbose parsed url   path: '.',
-7 verbose parsed url   href: '.' }
-8 silly lockFile 3a52ce78- .
-9 verbose lock . /Users/zaccaria/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz',
-10 verbose tar pack   '.' ]
-11 verbose tarball /Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-12 verbose folder .
-13 info prepublish derp@0.0.2
-14 silly lockFile 1f1177db-tar tar://.
-15 verbose lock tar://. /Users/zaccaria/.npm/1f1177db-tar.lock
-16 silly lockFile 03bd521c-32912-0-7440947536379099-tmp-tgz tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-17 verbose lock tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz /Users/zaccaria/.npm/03bd521c-32912-0-7440947536379099-tmp-tgz.lock
-18 silly lockFile 1f1177db-tar tar://.
-19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 03bd521c-32912-0-7440947536379099-tmp-tgz tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-21 silly lockFile 03bd521c-32912-0-7440947536379099-tmp-tgz tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-22 verbose tar unpack /Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-23 silly lockFile e3564afb-32912-0-7440947536379099-package tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package
-24 verbose lock tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package /Users/zaccaria/.npm/e3564afb-32912-0-7440947536379099-package.lock
-25 silly lockFile 03bd521c-32912-0-7440947536379099-tmp-tgz tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-26 verbose lock tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz /Users/zaccaria/.npm/03bd521c-32912-0-7440947536379099-tmp-tgz.lock
-27 silly gunzTarPerm modes [ '755', '644' ]
-28 silly gunzTarPerm extractEntry package.json
-29 silly gunzTarPerm extractEntry index.js
-30 silly gunzTarPerm extractEntry verbfile.js
-31 silly gunzTarPerm extractEntry docs/readme.md
-32 silly gunzTarPerm extractEntry docs/usage.md
-33 silly gunzTarPerm extractEntry index.ls
-34 silly gunzTarPerm extractEntry makefile
-35 silly gunzTarPerm extractEntry readme.md
-36 silly gunzTarPerm extractEntry test/example.cxx
-37 silly gunzTarPerm extractEntry test/out3-ref.txt
-38 silly gunzTarPerm extractEntry tmp/example
-39 silly gunzTarPerm extractEntry tmp/example.c++
-40 silly gunzTarPerm extractEntry tmp/out3-test.txt
-41 silly lockFile e3564afb-32912-0-7440947536379099-package tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package
-42 silly lockFile e3564afb-32912-0-7440947536379099-package tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package
-43 silly lockFile 03bd521c-32912-0-7440947536379099-tmp-tgz tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-44 silly lockFile 03bd521c-32912-0-7440947536379099-tmp-tgz tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/tmp.tgz
-45 verbose tar pack [ '/Users/zaccaria/.npm/derp/0.0.2/package.tgz',
-45 verbose tar pack   '/Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package' ]
-46 verbose tarball /Users/zaccaria/.npm/derp/0.0.2/package.tgz
-47 verbose folder /Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package
-48 silly lockFile e3564afb-32912-0-7440947536379099-package tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package
-49 verbose lock tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package /Users/zaccaria/.npm/e3564afb-32912-0-7440947536379099-package.lock
-50 silly lockFile 283aae1e-caria-npm-derp-0-0-2-package-tgz tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz
-51 verbose lock tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz /Users/zaccaria/.npm/283aae1e-caria-npm-derp-0-0-2-package-tgz.lock
-52 silly lockFile e3564afb-32912-0-7440947536379099-package tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package
-53 silly lockFile e3564afb-32912-0-7440947536379099-package tar:///Users/zaccaria/tmp/npm-12648/1418898932912-0.7440947536379099/package
-54 silly lockFile 283aae1e-caria-npm-derp-0-0-2-package-tgz tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz
-55 silly lockFile 283aae1e-caria-npm-derp-0-0-2-package-tgz tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz
-56 silly lockFile 5040abb4--zaccaria-npm-derp-0-0-2-package /Users/zaccaria/.npm/derp/0.0.2/package
-57 verbose lock /Users/zaccaria/.npm/derp/0.0.2/package /Users/zaccaria/.npm/5040abb4--zaccaria-npm-derp-0-0-2-package.lock
-58 silly lockFile 5040abb4--zaccaria-npm-derp-0-0-2-package /Users/zaccaria/.npm/derp/0.0.2/package
-59 silly lockFile 5040abb4--zaccaria-npm-derp-0-0-2-package /Users/zaccaria/.npm/derp/0.0.2/package
-60 verbose tar unpack /Users/zaccaria/.npm/derp/0.0.2/package.tgz
-61 silly lockFile 574e4035--zaccaria-npm-derp-0-0-2-package tar:///Users/zaccaria/.npm/derp/0.0.2/package
-62 verbose lock tar:///Users/zaccaria/.npm/derp/0.0.2/package /Users/zaccaria/.npm/574e4035--zaccaria-npm-derp-0-0-2-package.lock
-63 silly lockFile 283aae1e-caria-npm-derp-0-0-2-package-tgz tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz
-64 verbose lock tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz /Users/zaccaria/.npm/283aae1e-caria-npm-derp-0-0-2-package-tgz.lock
-65 silly gunzTarPerm modes [ '755', '644' ]
-66 silly gunzTarPerm extractEntry package.json
-67 silly gunzTarPerm extractEntry index.js
-68 silly gunzTarPerm extractEntry verbfile.js
-69 silly gunzTarPerm extractEntry docs/readme.md
-70 silly gunzTarPerm extractEntry docs/usage.md
-71 silly gunzTarPerm extractEntry index.ls
-72 silly gunzTarPerm extractEntry makefile
-73 silly gunzTarPerm extractEntry readme.md
-74 silly gunzTarPerm extractEntry test/example.cxx
-75 silly gunzTarPerm extractEntry test/out3-ref.txt
-76 silly gunzTarPerm extractEntry tmp/example
-77 silly gunzTarPerm extractEntry tmp/example.c++
-78 silly gunzTarPerm extractEntry tmp/out3-test.txt
-79 silly lockFile 574e4035--zaccaria-npm-derp-0-0-2-package tar:///Users/zaccaria/.npm/derp/0.0.2/package
-80 silly lockFile 574e4035--zaccaria-npm-derp-0-0-2-package tar:///Users/zaccaria/.npm/derp/0.0.2/package
-81 silly lockFile 283aae1e-caria-npm-derp-0-0-2-package-tgz tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz
-82 silly lockFile 283aae1e-caria-npm-derp-0-0-2-package-tgz tar:///Users/zaccaria/.npm/derp/0.0.2/package.tgz
-83 verbose chmod /Users/zaccaria/.npm/derp/0.0.2/package.tgz 644
-84 verbose chown /Users/zaccaria/.npm/derp/0.0.2/package.tgz [ 502, 502 ]
-85 silly lockFile 3a52ce78- .
-86 silly lockFile 3a52ce78- .
-87 silly publish { name: 'derp',
-87 silly publish   version: '0.0.2',
-87 silly publish   description: 'String interpolation for clang++ - Yet another post-pre processor',
-87 silly publish   bin: { derp: './index.js' },
-87 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
-87 silly publish   keywords: [],
-87 silly publish   author: { name: 'Vittorio Zaccaria' },
-87 silly publish   license: 'BSD',
-87 silly publish   dependencies:
-87 silly publish    { docopt: '~0.4.1',
-87 silly publish      shelljs: '*',
-87 silly publish      'verbal-expressions': '~0.1.2' },
-87 silly publish   readme: '# derp [![NPM version](https://badge.fury.io/js/derp.svg)](http://badge.fury.io/js/derp)\n\n> String interpolation for clang++ - Yet another post-pre processor\n\n## Install globally with [npm](npmjs.org):\n\n```bash\nnpm i -g derp\n```\n\n## General help \n\n```\nUsage:\n    derp -\n    derp -h | --help \n\nDescription:\n    Expands C++ interpolated strings on stdin. Output on stdout.\n\n```\n\nThis is just a post processor to be run after clang++ preprocessor (-E option).\n\n## Example\n\nAssume the following c++ file (`example.cxx`):\n\n```c++\n#include <string>\n#include <iostream>\n \nauto s = "variable string";\n\nint main()\n{\n    std::cout << "This is an interpolation of \'#{s}\' that goes to stdout\\n";\n}\n\n```\n\nCompile it with:\n\n    > clang++ --std=c++11 -E example.cxx | derp > example.c++ &&  clang++ -o example --std=c++11 example.c++\n\nAnd then run it:\n\n    > ./example \n    This is an interpolation of \'variable string\' that goes to stdout\n\n## Author\n\n**Vittorio Zaccaria**\n \n\n## License\nCopyright (c) 2014 Vittorio Zaccaria  \nReleased under the BSD license\n\n***\n\n_This file was generated by [verb](https://github.com/assemble/verb) on December 18, 2014._\n',
-87 silly publish   readmeFilename: 'readme.md',
-87 silly publish   _id: 'derp@0.0.2',
-87 silly publish   dist: { shasum: '15c736cb7c165cdaff416fe24235334c3c350f3e' },
-87 silly publish   _from: '.' }
-88 verbose url raw derp
-89 verbose url resolving [ 'https://registry.npmjs.org/', './derp' ]
-90 verbose url resolved https://registry.npmjs.org/derp
-91 info trying registry request attempt 1 at 11:35:33
-92 http PUT https://registry.npmjs.org/derp
-93 http 403 https://registry.npmjs.org/derp
-94 info trying registry request attempt 1 at 11:35:34
-95 http PUT https://registry.npmjs.org/derp
-96 http 403 https://registry.npmjs.org/derp
-97 error publish Failed PUT response 403
-98 error Error: forbidden user: vzaccaria not authorized to modify derp
-98 error Changed: readme "# Derp\u000a\u000aDo you want great profits? Make a blog! But how?? Magic.\u000a\u000a````javascript\u000avar redis = require('redis').createClient();\u000avar blog = require('derp');\u000ablog.redis = redis;\u000a````\u000a\u000aThere's your blog. Write a post dufas.\u000a\u000a````javascript\u000ablog.save({\u000a  id: 'best-post-ever',\u000a  title: \"my life\",\u000a  markdown: \"makin' *mad stacks* bitches. markdown up in hurr\",\u000a  tags: [\"gangsta life\", \"chillin\"],\u000a  published: new Date()\u000a}, function (error) { ... });\u000a````\u000a\u000aWtf do we do with that id?\u000a\u000a````javascript\u000ablog.get('best-post-ever', function (error, post) {\u000a  // lol, post.content is HTML, not markdown\u000a  // how great is that\u000a  put_post_on_the_browser_window(post);\u000a});\u000a````\u000a\u000aAll done! Oh snap, forgot to make a home page.\u000a\u000a````javascript\u000ablog.page({page: 1, perPage: 10}, function (error, posts) {\u000a  put_all_the_posts_on_the_browser_window(posts);\u000a});\u000a````\u000a\u000aRegret that post? No problem.\u000a\u000a````javascript\u000ablog.remove('best-post-ever', function (error) { ... });\u000a````\u000a\u000aBTW, your blog should maximize SEO:\u000a\u000a````javascript\u000ablog.page({page: 1, perPage: 10, tag: \"gangsta life\"}, function (error, posts) {\u000a  put_the_titles_on_the_sidebar_somewhere(posts);\u000a});\u000a\u000ablog.tags(function (error, tags) {\u000a  // tags[0].tag\u000a  // tags[0].count\u000a});\u000a````\u000a\u000aFeeling special yet? Go make a blog you idiot!\u000a\u000a## TODO\u000a\u000a * tags() method\u000a * Markdown in titles ?\u000a * Archive lists by year, month, day (doc)\u000a * Option for listing published/non-published (doc)\u000a\u000a" -> "# derp [![NPM version](https://badge.fury.io/js/derp.svg)](http://badge.fury.io/js/derp)\u000a\u000a> String interpolation for clang++ - Yet another post-pre processor\u000a\u000a## Install globally with [npm](npmjs.org):\u000a\u000a```bash\u000anpm i -g derp\u000a```\u000a\u000a## General help \u000a\u000a```\u000aUsage:\u000a    derp -\u000a    derp -h | --help \u000a\u000aDescription:\u000a    Expands C++ interpolated strings on stdin. Output on stdout.\u000a\u000a```\u000a\u000aThis is just a post processor to be run after clang++ preprocessor (-E option).\u000a\u000a## Example\u000a\u000aAssume the following c++ file (`example.cxx`):\u000a\u000a```c++\u000a#include <string>\u000a#include <iostream>\u000a \u000aauto s = \"variable string\";\u000a\u000aint main()\u000a{\u000a    std::cout << \"This is an interpolation of '#{s}' that goes to stdout\\n\";\u000a}\u000a\u000a```\u000a\u000aCompile it with:\u000a\u000a    > clang++ --std=c++11 -E example.cxx | derp > example.c++ &&  clang++ -o example --std=c++11 example.c++\u000a\u000aAnd then run it:\u000a\u000a    > ./example \u000a    This is an interpolation of 'variable string' that goes to stdout\u000a\u000a## Author\u000a\u000a**Vittorio Zaccaria**\u000a \u000a\u000a## License\u000aCopyright (c) 2014 Vittorio Zaccaria  \u000aReleased under the BSD license\u000a\u000a***\u000a\u000a_This file was generated by [verb](https://github.com/assemble/verb) on December 18, 2014._\u000a"
-98 error Changed: time.modified "2012-08-02T13:44:06.706Z" -> "2014-12-18T10:37:08.753Z": derp
-98 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
-98 error     at Request.self.callback (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/request/index.js:148:22)
-98 error     at Request.emit (events.js:98:17)
-98 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/request/index.js:876:14)
-98 error     at Request.emit (events.js:117:20)
-98 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/request/index.js:827:12)
-98 error     at IncomingMessage.emit (events.js:117:20)
-98 error     at _stream_readable.js:943:16
-98 error     at process._tickCallback (node.js:419:13)
-99 error If you need help, you may report this log at:
-99 error     <http://github.com/isaacs/npm/issues>
-99 error or email it to:
-99 error     <npm-@googlegroups.com>
-100 error System Darwin 13.3.0
-101 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
-102 error cwd /Users/zaccaria/development/github/derp
-103 error node -v v0.10.31
-104 error npm -v 1.3.2
-105 verbose exit [ 1, true ]
+5 error Error: Invalid name: "derp++"
+5 error     at ensureValidName (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:281:15)
+5 error     at Object.module.exports.fixNameField (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:196:5)
+5 error     at /usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:29:38
+5 error     at Array.forEach (native)
+5 error     at normalize (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:28:15)
+5 error     at final (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/read-package-json/read-json.js:310:33)
+5 error     at then (/usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:33)
+5 error     at /usr/local/Cellar/node/0.10.13/lib/node_modules/npm/node_modules/read-package-json/read-json.js:299:40
+5 error     at fs.js:271:14
+5 error     at Object.oncomplete (fs.js:107:15)
+6 error If you need help, you may report this log at:
+6 error     <http://github.com/isaacs/npm/issues>
+6 error or email it to:
+6 error     <npm-@googlegroups.com>
+7 error System Darwin 13.3.0
+8 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+9 error cwd /Users/zaccaria/development/github/derp
+10 error node -v v0.10.31
+11 error npm -v 1.3.2
+12 verbose exit [ 1, true ]
