@@ -20,29 +20,40 @@ filename      = get-option('-f' , '--file'     , '/dev/stdin'  , o)
 
 filename ?= '/dev/stdin'
 
-{cat} = shelljs
+v = require('verbal-expressions')
+
+interp = (prefix, decorator, string) -->
+    let decorator
+        placeholder = v().beginCapture().find(prefix).anythingBut("}").then("}").endCapture()
+        var found
+        found := false
+        final-string = string.replace placeholder, (complete-placeholder) ->
+            found := true
+
+            inner-placeholder = v().find(prefix).beginCapture().anythingBut("}").endCapture().then("}")
+
+            complete-placeholder.replace inner-placeholder, (complete, inner-content) ->
+                return "\" + std::string(#{decorator inner-content}) + \""
+
+        return final-string
+
 
 process.stdin.setEncoding('utf8')
 process.stdin.on 'readable', ->
     content = process.stdin.read()
     if content != "" and content?
-        v = require('verbal-expressions')
-
+        
         interpolate = (file-content) ->
-            e = /"([^"\\]|\\.)*"/g
-            var interp
-            interp := false
-            file-content.replace e, (s) ->
-                e2 = v().beginCapture().find('#{').anythingBut("}").then("}").endCapture()
-                rep = s.replace e2, (x) ->
-                    interp := true
-                    e3 = v().find('#{').beginCapture().anythingBut("}").endCapture().then("}")
-                    x.replace e3, (y,m) ->
-                        return "\" + std::string(#m) + \""
-                if interp 
-                    return "std::string(#rep).c_str()"
+            is-string = /"([^"\\]|\\.)*"/g
+
+            file-content.replace is-string, (s) ->
+
+                final-string = s |> interp('##{', (-> "std::to_string(#it)")) |> interp('#{', (-> it))
+
+                if final-string != s 
+                    return "std::string(#final-string).c_str()"
                 else 
-                    return rep 
+                    return final-string 
         process.stdout.write interpolate(content)
 
 

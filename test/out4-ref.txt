@@ -1,0 +1,1 @@
+This is an interpolation of '1' that goes to stdout
